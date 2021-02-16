@@ -2,14 +2,14 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import Nav from './Components/Nav';
+import Navy from './Components/Nav';
 import './App.css';
 
 function App() {
   return (
     <Router>
       <div className="App">
-      <Nav />
+      <Navy />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />

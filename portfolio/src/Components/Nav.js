@@ -1,14 +1,14 @@
 import React from 'react';
-import '../App.css';
-import { Link } from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav'
+// import '../App.css';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-function nav() {
+function navy() {
 
     return (
-        <Nav className="justify content-center">
+        <Navbar className="justify-content-center">
             <Nav.Item>
-                <Nav.Link href="/home">Home</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link href="/about">About</Nav.Link>
@@ -19,8 +19,8 @@ function nav() {
             <Nav.Item>
                 <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav.Item>
-        </Nav>
+        </Navbar>
     )
 }
 
-export default nav;
+export default navy;
