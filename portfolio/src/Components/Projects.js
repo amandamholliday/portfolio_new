@@ -15,7 +15,7 @@ function projects() {
             <br />
             <h2>
                 <Link to="/wireframes">
-                    View All Wireframes
+                    See My Wireframes
                 </Link>
             </h2>
             <CardColumns>
@@ -28,7 +28,8 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">View Full Details</small>
+                    <small className="text-muted"><u>Github</u>    |</small>
+                    <small className="text-muted">    <u>Live Site</u></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
@@ -40,7 +41,8 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">View Full Details</small>
+                        <small className="text-muted"><u>Github</u>    |</small>
+                        <small className="text-muted">    <u>Live Site</u></small>
                     </Card.Footer>
                 </Card>
                 <Card className="text-center" border="dark">
@@ -52,7 +54,8 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">View Full Details</small>
+                        <small className="text-muted"><u>Github</u>    |</small>
+                        <small className="text-muted">    <u>Live Site</u></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
@@ -64,7 +67,8 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">View Full Details</small>
+                        <small className="text-muted"><u>Github</u>    |</small>
+                        <small className="text-muted">    <u>Live Site</u></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
@@ -76,7 +80,8 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">View Full Details</small>
+                        <small className="text-muted"><u>Github</u>    |</small>
+                        <small className="text-muted">    <u>Live Site</u></small>
                     </Card.Footer>
                 </Card>
             </CardColumns>

@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function navy() {
 
     return (
-        <Navbar className="justify-content-center">
+        <Navbar className="justify-content-center" color="black">
             <Nav.Item>
                 <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
