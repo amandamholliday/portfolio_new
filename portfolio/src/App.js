@@ -3,7 +3,10 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Navy from './Components/Nav';
+import Wireframes from './Components/Wireframes';
 import './App.css';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
+          <Route path="/wireframes" component={Wireframes} />
         </Switch>
       </div>
     </Router>
@@ -24,7 +28,14 @@ function App() {
 
 const Home = () => (
   <div>
-    <h1>Home!</h1>
+    <Jumbotron>
+      <Container>
+        <h1>Amanda Holliday</h1>
+        <p>
+          WEB DEVELOPER / SOFTWARE ENGINEER / WIREFRAME DESIGNER
+        </p>
+      </Container>
+    </Jumbotron>
   </div>
 );
 

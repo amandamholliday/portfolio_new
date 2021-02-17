@@ -5,3 +5,10 @@
 body {
   background: url(https://res.cloudinary.com/dzgeqcksj/image/upload/b_rgb:f6f4fb,co_rgb:ffffff,o_5,q_100/v1607542366/IMG_3988_nkzixl.jpg);
 }
+
+.wireframes {
+  width: 100vh;
+  /* height: fit-content; */
+  /* margin: auto; */
+  padding: 20px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import CardGroup from 'react-bootstrap/CardGroup';
@@ -11,6 +11,11 @@ function projects() {
     return (
         <div>
             <h1>Projects Page</h1>
+            <h2>
+                <Link to="/wireframes">
+                    View All Wireframes
+                </Link>
+            </h2>
             <CardColumns>
                 <Card border="dark">
                     <Card.Img variant="top" src="https://res.cloudinary.com/dzgeqcksj/image/upload/c_scale,w_714/v1612301418/Screen_Shot_2021-02-02_at_4.27.07_PM_x8eps4.png" />
