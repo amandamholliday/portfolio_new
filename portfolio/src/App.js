@@ -27,15 +27,16 @@ function App() {
 }
 
 const Home = () => (
-  <div>
-    <Jumbotron>
+  <div className="home">
       <Container>
-        <h1>Amanda Holliday</h1>
+        <img src="https://see.fontimg.com/api/renderfont4/pALD/eyJyIjoiZnMiLCJoIjoxNTgsInciOjEwMDAsImZzIjoxNTgsImZnYyI6IiMzQTM4MzgiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/QW1hbmRh/wonderbar.png"/>
+        <img src="https://see.fontimg.com/api/renderfont4/pALD/eyJyIjoiZnMiLCJoIjoxNTgsInciOjEwMDAsImZzIjoxNTgsImZnYyI6IiMzQTM4MzgiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SG9sbGlkYXk/wonderbar.png"/>
+        <br />
+        <br />
         <p>
           WEB DEVELOPER / SOFTWARE ENGINEER / WIREFRAME DESIGNER
         </p>
       </Container>
-    </Jumbotron>
   </div>
 );
 

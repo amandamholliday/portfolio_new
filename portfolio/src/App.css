@@ -11,4 +11,13 @@ body {
   /* height: fit-content; */
   /* margin: auto; */
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home {
+  padding: 15vh;
+  margin: auto;
+  border: 0.4mm  black;
 }
