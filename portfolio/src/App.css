@@ -7,17 +7,47 @@ body {
 }
 
 .wireframes {
-  width: 100vh;
+  /* width: 100vh; */
   /* height: fit-content; */
   /* margin: auto; */
   padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  top: auto;
+  left: 130px;
+  position: absolute;
 }
 
 .home {
   padding: 15vh;
   margin: auto;
   border: 0.4mm  black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutme {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding: 20px;
+}
+
+.languages {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  list-style:disc;
+  /* padding: 20px; */
+  display: flex;
+  align-content: center;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
