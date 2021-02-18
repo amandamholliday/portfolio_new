@@ -5,7 +5,7 @@ import '../App.css';
 function contact() {
 
     return (
-        <div>
+        <div className="contact">
             <br />
             <img src="https://see.fontimg.com/api/renderfont4/pALD/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjM0EzODM4IiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Q29udGFjdCBNZQ/wonderbar.png"/>
             <h2>Email me:</h2>

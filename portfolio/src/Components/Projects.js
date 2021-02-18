@@ -9,7 +9,7 @@ import CardColumns from 'react-bootstrap/CardColumns';
 function projects() {
 
     return (
-        <div>
+        <div className="projects">
             <br />
             <img src="https://see.fontimg.com/api/renderfont4/pALD/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjM0EzODM4IiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TXkgUHJvamVjdHM/wonderbar.png"/>
             <br />
@@ -20,7 +20,7 @@ function projects() {
             </h2>
             <CardColumns>
                 <Card border="dark">
-                    <Card.Title>Laugh Map</Card.Title>
+                    <Card.Title><b>Laugh Map</b></Card.Title>
                     <Card.Img variant="top" src="https://res.cloudinary.com/dzgeqcksj/image/upload/c_scale,w_714/v1612301418/Screen_Shot_2021-02-02_at_4.27.07_PM_x8eps4.png" />
                     <Card.Body>
                     <Card.Text>
@@ -28,12 +28,12 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted"><u>Github</u>    |</small>
-                    <small className="text-muted">    <u>Live Site</u></small>
+                        <small className="text-muted"><a target="_blank" href="https://github.com/amandamholliday/final-project"><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href="https://laughmap.herokuapp.com/"><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
-                    <Card.Title>The Record Collection</Card.Title>
+                    <Card.Title><b>The Record Collection</b></Card.Title>
                     <Card.Img variant="top" src="https://res.cloudinary.com/dzgeqcksj/image/upload/c_scale,q_100,w_813/v1612319334/Record_Collection_dcfkvy.png" />
                     <Card.Body>
                     <Card.Text>
@@ -41,12 +41,12 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><u>Github</u>    |</small>
-                        <small className="text-muted">    <u>Live Site</u></small>
+                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
                 <Card className="text-center" border="dark">
-                <Card.Title>The Traveler</Card.Title>
+                <Card.Title><b>The Traveler</b></Card.Title>
                     <Card.Img variant="top" src="https://res.cloudinary.com/dzgeqcksj/image/upload/v1607567905/Screen_Shot_2020-12-09_at_9.25.18_PM_n8ep7x.png" />
                     <Card.Body>
                     <Card.Text>
@@ -54,12 +54,12 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><u>Github</u>    |</small>
-                        <small className="text-muted">    <u>Live Site</u></small>
+                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
-                    <Card.Title>Motivation Machine</Card.Title>
+                    <Card.Title><b>Motivation Machine</b></Card.Title>
                     <Card.Img variant="top" src="https://res.cloudinary.com/dzgeqcksj/image/upload/c_scale,w_620/v1612301391/Screen_Shot_2021-02-02_at_3.32.13_PM_fvxgft.png" />
                     <Card.Body>
                     <Card.Text>
@@ -67,8 +67,8 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><u>Github</u>    |</small>
-                        <small className="text-muted">    <u>Live Site</u></small>
+                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
@@ -80,21 +80,12 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><u>Github</u>    |</small>
-                        <small className="text-muted">    <u>Live Site</u></small>
+                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
             </CardColumns>
                 <div className="projectlinks">
-                    <a href="https://laughmap.herokuapp.com/">
-                        go to site
-                    </a>
-                    <a href="https://github.com/amandamholliday/final-project">
-                        view on github
-                    </a>
-                    <a href to="/">
-                        wireframes
-                    </a>
                 </div>
         </div>
     )
