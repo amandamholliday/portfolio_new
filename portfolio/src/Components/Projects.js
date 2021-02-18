@@ -41,8 +41,8 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
-                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
+                        <small className="text-muted"><a target="_blank" href="https://github.com/benritter522/Record-Collection-Client"><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a>(in progress)</small>
                     </Card.Footer>
                 </Card>
                 <Card className="text-center" border="dark">
@@ -50,12 +50,12 @@ function projects() {
                     <Card.Img variant="top" src="https://res.cloudinary.com/dzgeqcksj/image/upload/v1607567905/Screen_Shot_2020-12-09_at_9.25.18_PM_n8ep7x.png" />
                     <Card.Body>
                     <Card.Text>
-                    My very frist project - an original game built with pure Javascript. The concept is that the player is a traveler stuck in a teleport and must identify 10 locations correctly before time runs out or else they are stuck in the teleport forever.
+                    My very frist project - an original game built with pure Javascript, HTML, and CSS. The concept is that the player is a traveler stuck in a teleport and must identify 10 locations correctly before time runs out or else they are stuck in the teleport forever.
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
-                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
+                        <small className="text-muted"><a target="_blank" href="https://github.com/amandamholliday/project_1_margaret"><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href="https://amandamholliday.github.io/project_1_margaret/"><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
@@ -67,20 +67,20 @@ function projects() {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
-                        <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
+                        <small className="text-muted"><a target="_blank" href="https://github.com/amandamholliday/project_3"><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted">    <a target="_blank" href="https://motivation-machine.herokuapp.com/"><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
                 <Card border="dark">
                     <Card.Title>This Portfolio Site</Card.Title>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src="https://res.cloudinary.com/dzgeqcksj/image/upload/v1613630033/Screen_Shot_2021-02-18_at_1.26.34_AM_1_aau9ip.png" />
                     <Card.Body>
                     <Card.Text>
                     I built this portfolio you're currently viewing with React, Bootstrap, HTML & CSS. Background image was something I hand drew and digitalized with Adobe Capture.
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted"><a target="_blank" href=""><u><b>Github</b></u></a>  |</small>
+                        <small className="text-muted"><a target="_blank" href="https://github.com/amandamholliday/portfolio_new"><u><b>Github</b></u></a>  |</small>
                         <small className="text-muted">    <a target="_blank" href=""><u><b>Live Site</b></u></a></small>
                     </Card.Footer>
                 </Card>
